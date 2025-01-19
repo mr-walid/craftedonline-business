@@ -3,6 +3,7 @@ import { IoIosMail } from 'react-icons/io';
 import { IoCall } from 'react-icons/io5';
 import '../style/UpperNav.css'; // Ensure the path is correct
 import logo from '../assets/onlinec.png'; // Ensure the logo path is correct
+import { Link } from 'react-router-dom';
 
 const UpperNav = () => {
   return (
@@ -10,10 +11,12 @@ const UpperNav = () => {
       {/* Logo Section */}
       <div className='logo'>
         <a href='/'>
-          <img
-            src={logo}
-            alt='craftedonline logo'
-          />
+          <Link to='/home'>
+            <img
+              src={logo}
+              alt='craftedonline logo'
+            />
+          </Link>
         </a>
       </div>
 

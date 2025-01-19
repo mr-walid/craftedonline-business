@@ -11,10 +11,12 @@ const Navbar = () => {
   return (
     <header className={`navbar ${isOpen ? 'navbar--hidden' : ''}`}>
       <div className='logo-responsive'>
-        <img
-          src={img}
-          alt='craftedonline logo'
-        />
+        <Link to='/home'>
+          <img
+            src={img}
+            alt='craftedonline logo'
+          />
+        </Link>
       </div>
       <div className='navbar__container'>
         <div className='navbar__hamburger'>
@@ -29,7 +31,7 @@ const Navbar = () => {
       <nav className={`navbar__menu ${isOpen ? 'open' : ''}`}>
         <ul>
           <li>
-            <Link to='/hero'>Home</Link>
+            <Link to='/home'>Home</Link>
           </li>
           <li>
             <Link to='/projects'>Projects</Link>
