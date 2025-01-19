@@ -3,6 +3,7 @@ import '../style/Navbar.css';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Hamburger from 'hamburger-react';
 import img from '../assets/logo.png';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -28,16 +29,16 @@ const Navbar = () => {
       <nav className={`navbar__menu ${isOpen ? 'open' : ''}`}>
         <ul>
           <li>
-            <a href='#home'>Home</a>
+            <Link to='/hero'>Home</Link>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <Link to='/projects'>Projects</Link>
           </li>
           <li>
-            <a href='#services'>Services</a>
+            <Link to='/services'>Services</Link>
           </li>
           <li>
-            <a href='#about'>About</a>
+            <Link to='/about'>About</Link>
           </li>
         </ul>
       </nav>
