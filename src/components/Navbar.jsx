@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../style/Navbar.css';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import Hamburger from 'hamburger-react';
-import img from '../assets/onlinec.png';
+import img from '../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);

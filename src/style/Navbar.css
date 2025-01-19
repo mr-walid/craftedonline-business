@@ -87,6 +87,7 @@ a {
 }
 
 .navbar__hamburger {
+  color: #fff;
   position: absolute;
   top: -180%;
   right: -8%;
@@ -94,15 +95,17 @@ a {
 }
 
 .navbar .logo-responsive {
+  height: auto;
   display: none;
   align-items: center;
   justify-content: center;
-  margin-left: 1%;
-  background-color: red;
+  margin-top: 4%;
+  margin-left: -9%;
 }
 .navbar .logo-responsive img {
-  height: 80px;
-  width: auto;
+  margin: auto;
+  height: 200px;
+  width: 200px;
 }
 
 @media (max-width: 745px) {
@@ -117,7 +120,6 @@ a {
   .navbar .logo-responsive {
     display: flex;
     align-items: center;
-    margin-left: -9%;
   }
 
   .navbar__menu {
