@@ -1,0 +1,36 @@
+{
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "javascriptreact": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "javascriptreact": "jsx"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+  "javascript.validate.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "files.associations": {
+    "*.react.js": "javascriptreact",
+    "*.stories.js": "javascriptreact",
+    "*.action.js": "javascriptreact",
+    "*.reducer.js": "javascriptreact",
+    "*.styles.js": "javascriptreact",
+    "*.styles.react.js": "javascriptreact",
+    "*.styles.jsx": "javascriptreact",
+    "*.svg.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
+    "*.js": "javascriptreact",
+    ".stylelintrc": "jsonc"
+  }
+}
