@@ -2,6 +2,7 @@ import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import UpperNav from './components/upperNav';
+import About from './components/About';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <UpperNav/>
       <Navbar/>
       <Hero />
+      <About />
     </div>
   );
 }

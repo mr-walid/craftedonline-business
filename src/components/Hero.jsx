@@ -2,7 +2,7 @@ import hero_bg from "../assets/hero-bg.mp4";
 
 function Hero() {
     return (
-        <div className="relative h-[85vh] w-full overflow-hidden flex flex-col justify-center items-center gap-6">
+        <div className="relative h-[84vh] w-full overflow-hidden flex flex-col justify-center items-center gap-6">
             <div className="text-center">
                 <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
                 
