@@ -1,21 +1,18 @@
 import hero_bg from '../assets/hero-bg.mp4';
+import Services from './Services';
 
 function Hero() {
   return (
-    <div className='relative h-[85vh] w-full overflow-hidden flex flex-col justify-center items-center gap-6'>
-      <div className='text-center'>
-        <h1 className='text-4xl font-bold mb-4'>Welcome to Your Blank App</h1>
-
+    <div className='w-full'>
+      {/* Background video */}
+      <div className='relative w-full'>
         <video
           autoPlay
           loop
           muted
           playsInline
-          className='absolute top-0 left-0 w-full h-full object-cover'
+          className='absolute top-0 left-0 w-full h-full object-cover z-0'
         >
-          <p className='text-xl text-gray-600'>
-            Start building your amazing project here!
-          </p>
           <source
             src={hero_bg}
             type='video/mp4'
@@ -23,10 +20,18 @@ function Hero() {
           Your browser does not support the video tag.
         </video>
 
-        <div className='video-overlay absolute inset-0 z-10'></div>
-        <div className='grain-overlay absolute inset-0 z-20'></div>
+        {/* Overlay to make text more readable */}
+        <div className='video-overlay absolute inset-0 z-10 bg-black opacity-50'></div>
 
-        <div className='relative z-30 h-full flex flex-col items-center justify-center px-4 text-center'>
+        {/* Main content */}
+        <div className='relative z-20 h-[85vh] flex flex-col justify-center items-center text-center px-4'>
+          <h1 className='text-4xl font-bold text-white mb-4'>
+            Welcome to Your Blank App
+          </h1>
+          <p className='text-xl text-white mb-4'>
+            Start building your amazing project here!
+          </p>
+
           <p className='text-white/90 text-lg md:text-xl mb-4 animate-float'>
             Empowering Your Digital Dreams
           </p>
@@ -39,6 +44,10 @@ function Hero() {
             Get Started Today!
           </button>
         </div>
+      </div>
+
+      <div className='mt-12'>
+        <Services />
       </div>
     </div>
   );
