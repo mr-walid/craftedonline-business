@@ -3,10 +3,9 @@ import '../style/Services.css';
 import { LiaLaptopCodeSolid } from 'react-icons/lia';
 import { FcStatistics } from 'react-icons/fc';
 import { FaWordpress } from 'react-icons/fa';
-import background from '../assets/background.jpg';
 
 const Services = () => {
-  const [expandedService, setExpandedService] = useState(null); // Track which service is expanded
+  const [expandedService, setExpandedService] = useState(null);
 
   const services = [
     {
@@ -30,7 +29,7 @@ const Services = () => {
   ];
 
   const toggleText = (id) => {
-    setExpandedService((prev) => (prev === id ? null : id)); // Toggle the specific service
+    setExpandedService((prev) => (prev === id ? null : id));
   };
 
   return (

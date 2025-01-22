@@ -6,6 +6,7 @@ import UpperNav from './components/upperNav';
 import Projects from './components/Projects';
 import Services from './components/Services';
 import About from './components/About';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             element={<About />}
           />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
