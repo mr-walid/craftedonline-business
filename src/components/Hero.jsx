@@ -4,7 +4,6 @@ import Services from './Services';
 function Hero() {
   return (
     <div className='w-full'>
-      {/* Background video */}
       <div className='relative w-full'>
         <video
           autoPlay
@@ -17,21 +16,14 @@ function Hero() {
             src={hero_bg}
             type='video/mp4'
           />
-          Your browser does not support the video tag.
         </video>
 
-        {/* Overlay to make text more readable */}
         <div className='video-overlay absolute inset-0 z-10 bg-black opacity-50'></div>
 
-        {/* Main content */}
         <div className='relative z-20 h-[85vh] flex flex-col justify-center items-center text-center px-4'>
           <h1 className='text-4xl font-bold text-white mb-4'>
-            Welcome to Your Blank App
+            Welcome to Your CraftedOnline Website
           </h1>
-          <p className='text-xl text-white mb-4'>
-            Start building your amazing project here!
-          </p>
-
           <p className='text-white/90 text-lg md:text-xl mb-4 animate-float'>
             Empowering Your Digital Dreams
           </p>
