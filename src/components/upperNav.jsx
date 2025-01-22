@@ -11,7 +11,7 @@ const UpperNav = () => {
       {/* Logo Section */}
       <div className='logo'>
         <a href='/'>
-          <Link to='/home'>
+          <Link to='/'>
             <img
               src={logo}
               alt='craftedonline logo'

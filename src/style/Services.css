@@ -1,0 +1,114 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 100px auto;
+  background-color: rgb(247, 247, 232);
+  border-radius: 50px;
+}
+
+.services h1 {
+  font-size: 3rem;
+  color: rgb(41, 108, 252);
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.services .title {
+  font-size: 1.2rem;
+  color: rgb(20, 21, 22);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  width: 70%;
+}
+
+.services_info_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.services_info {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services_info:hover {
+  transform: translateY(-10px); /* Move the card up slightly on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+  background-color: #007bff;
+  color: white;
+}
+
+.services_info:hover h2 {
+  color: white;
+}
+
+.services_info:hover p {
+  color: white;
+}
+
+.services_info:hover .services_icon {
+  color: rgb(12, 12, 12);
+}
+
+.services_info:hover button {
+  color: black;
+  background-color: white;
+  border: none;
+  transition: color 0.5s ease, background-color 0.3s ease;
+}
+.services_info:hover button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(216, 185, 185);
+  border: none;
+  transition: color 0.5s ease, background-color 0.3s ease;
+}
+.services_icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.services_info h2 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgb(20, 21, 22);
+  margin-bottom: 10px;
+}
+.services_info p {
+  font-size: 0.9rem;
+  color: rgb(20, 21, 22);
+  margin-bottom: 10px;
+}
+
+.view_more_button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.view_more_button:hover {
+  background-color: #0056b3;
+}

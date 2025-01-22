@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route
-            path='/home'
+            path='/'
             element={<Hero />}
           />
           <Route

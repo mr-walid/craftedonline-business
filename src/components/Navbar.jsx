@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header className={`navbar ${isOpen ? 'navbar--hidden' : ''}`}>
       <div className='logo-responsive'>
-        <Link to='/home'>
+        <Link to='/'>
           <img
             src={img}
             alt='craftedonline logo'
@@ -31,7 +31,7 @@ const Navbar = () => {
       <nav className={`navbar__menu ${isOpen ? 'open' : ''}`}>
         <ul>
           <li>
-            <Link to='/home'>Home</Link>
+            <Link to='/'>Home</Link>
           </li>
           <li>
             <Link to='/projects'>Projects</Link>
