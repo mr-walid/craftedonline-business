@@ -1,4 +1,5 @@
 import hero_bg from '../assets/hero-bg.mp4';
+import Contact from './Contact';
 import Services from './Services';
 
 function Hero() {
@@ -40,6 +41,7 @@ function Hero() {
 
       <div className='mt-12'>
         <Services />
+        <Contact />
       </div>
     </div>
   );

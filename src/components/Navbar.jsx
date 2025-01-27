@@ -47,21 +47,21 @@ const Navbar = () => {
 
       {/* Call-to-action buttons */}
       <div className='navbar__cta'>
-        <a
-          href='#contact'
+        <Link
+          to='/contact'
           className='btn btn--outline'
         >
           Contact Us
-        </a>
-        <a href='#contact'>
+        </Link>
+        <Link to='facebook'>
           <FaFacebook />
-        </a>
-        <a href='#contact'>
+        </Link>
+        <Link to='instagram'>
           <FaInstagram />
-        </a>
-        <a href='#contact'>
+        </Link>
+        <Link to='linkedin'>
           <FaLinkedin />
-        </a>
+        </Link>
       </div>
     </header>
   );
