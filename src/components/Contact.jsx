@@ -43,8 +43,12 @@ const Contact = () => {
           alert('Failed to send your message. Please try again.');
         }
       );
-
-    e.target.reset();
+    setFormData({
+      name: '',
+      email: '',
+      number: '',
+      message: '',
+    });
   };
 
   return (
