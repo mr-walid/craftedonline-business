@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../style/Services.css';
+// import '../style/Services.css';
 import { LiaLaptopCodeSolid } from 'react-icons/lia';
 import { FcStatistics } from 'react-icons/fc';
 import { FaWordpress } from 'react-icons/fa';
